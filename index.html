@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Single price grid component
+    </title>
+    <style>
+      .container {
+       display: grid;
+	    grid-template-columns: 100%;
+	    max-width: 635px;
+        margin-top: 770px;
+	    margin: 116px auto;
+	    border-radius: 8px;
+	    overflow: hidden;
+	    box-shadow: 0px 0px 14px 1px #00000024;
+      }
+      #box1 {
+        color: rgb(16 214 253 / 56%);
+      }
+      #money {
+        color: yellowgreen;
+      }
+      .inline { 
+    /*color: white;*/
+    margin:10px;
+    float:left;/*Add float left*/
+    margin :10px;
+}
+.Container2{
+    background-color:hsl(179, 62%, 43%);
+    padding-bottom: 135px;
+   height: 194px;
+    padding-right: 32px;
+    padding-left: 38px;
+    
+}
+.container3{
+    background-color:#4abebd;
+    width: 245px;
+    height: 329px;
+    padding-left: 62px;
+}
+/*.button {
+     background-color: green;
+    padding-left: 10px;
+    padding-right: 1px;
+ }*/
+
+ .big {
+   /* background: hsl(71, 73%, 54%);
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;*/
+    width: 73%;
+    padding: 12px;
+    border-radius: 4px;
+    display: inline-block;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-top: 55px;
+    font-weight: 700;
+    box-shadow: 0px 4px 10px 1px #00000033;
+    text-align: center;
+}
+.inline{
+    color: #f7f7f7;
+    margin: 10px;
+    float: left;
+    margin: 0px
+}
+.joinDiv{
+    padding-left: 40px;
+}
+.item{
+color: gray;
+}
+.item2{
+color: gray;
+}
+#digit{
+    font-size: 30px;
+
+}
+.paragraph{
+  height: 10px;
+}
+.fees{
+    font-size: 28px;
+}
+
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <div class="joinDiv">
+        <h1 id="box1">Join our community</h1>
+        <p id="money">30-Days,hassle-free money back guarantee</p>
+        <p class="item">
+          Gain access to our full library of tutorials along with expert code
+          reviews.
+        </p>
+        <p class="item2">
+          Perfect for any developers who are serious about honing their skills.
+        </p>
+
+    </div>
+        <div class="Container2 inline">
+          <h1 class="fees">Monthly subscription</h1>
+          <p class="price"><span id="digit">&dollar;29 </span>per month</p>
+          <p>Full access for less than $1 a day</p>
+          <div class="button big">Sign Up</div>
+        </div>
+
+       
+            <div class="container3 inline">
+                <h1>why us</h1>
+                <p class="paragraph">Tutorials by industry experts</p>
+                <p class="paragraph">Peer & expert code review</p>
+                <p class="paragraph">Coding exercises</p>
+                <p class="paragraph">Access to our GitHub repos</p>
+                <p class="paragraph">Community forum</p>
+                <p class="paragraph">Flashcard decks</p>
+                <p class="paragraph">New videos every week</p>
+            </div>
+        
+      </div>
+    </div>
+  </body>
+</html>
